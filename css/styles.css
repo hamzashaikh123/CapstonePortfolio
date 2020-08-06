@@ -219,7 +219,16 @@ margin-left: 165px; Same as the width of the sidebar */
     object-fit: cover;
     border-radius: 15px;
 }
-
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
 .project-overlay{
     color: #fff;
     position: absolute;
@@ -385,8 +394,9 @@ margin-left: 165px; Same as the width of the sidebar */
     }
     .card,
     .center-container{
-        max-width:100%;
-        margin: none;
+        width:80%;
+        margin: 0 auto;
     } 
+    
 
 }
