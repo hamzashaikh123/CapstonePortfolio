@@ -71,11 +71,6 @@ margin-left: 165px; Same as the width of the sidebar */
 
 /*============================== WORK EXPERIENCE ===============================================*/
 
-.card,
-.center-container{
-    width:80%;
-    margin: 0 auto;
-}
 
 .subheading{
     line-height: 0;
@@ -270,10 +265,7 @@ margin-left: 165px; Same as the width of the sidebar */
     width: 80px;
     height: 80px;
 }
-.center-container{
-    width:80%;
-    margin: 0 auto;
-}
+
 
 
 /*============================== Media Queries =============================================*/
@@ -287,6 +279,26 @@ margin-left: 165px; Same as the width of the sidebar */
     }
     .main{
         margin-left: 0;
+    }
+    .project-overlay{
+        padding:0 5px;
+    }
+    .project-thumbnail{
+        width: 260px;
+        height: 180px;
+        font-size: 8px;
+    }
+    .project-thumbnail img{
+        width: 260px;
+        height: 180px;
+        
+    }
+    .project-overlay li{
+        padding:0;
+        margin-right:5px;
+    }
+    .project-overlay p {
+        margin-bottom:5px;
     }
 }
 
@@ -309,38 +321,72 @@ margin-left: 165px; Same as the width of the sidebar */
         font-size: 40px;
         margin-bottom:0;
     }
+    .project-overlay{
+        padding:0 5px;
+    }
+    .project-thumbnail{
+        width: 300px;
+        height: 200px;
+        font-size: 10px;
+    }
+    .project-thumbnail img{
+        width: 300px;
+        height: 200px;
+        
+    }
+    .project-overlay li{
+        padding:0;
+        margin-right:5px;
+    }
+    .project-overlay p {
+        margin-bottom:5px;
+    }
+    .card,
+    .center-container{
+        width:80%;
+        margin: 0 auto;
+    }   
 }
+
 @media (min-width:1024px){
     .project-thumbnail{
-        width: 325px;
+        width: 320px;
         height: 220px;
         font-size: 10px;
         margin: 10px 40px;
     }
     .project-thumbnail img{
-        width: 325px;
+        width: 320px;
         height: 220px;
  
     }
     .main {
         margin-left: 165px; /* Same as the width of the sidebar */
         padding: 0px;
-        }
-
+    }
+    .card,
+    .center-container{
+        width:100%;
+        margin: 0 auto;
+    } 
+       
 }
 @media (min-width:1440px){
     .project-thumbnail{
         width: 450px;
         height: 350px;
-        font-size: 10px;
+        font-size: 15px;
         margin: 40px;
     }
     .project-thumbnail img{
         width: 450px;
         height: 350px;
         
- 
     }
-
+    .card,
+    .center-container{
+        max-width:100%;
+        margin: none;
+    } 
 
 }
