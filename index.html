@@ -13,10 +13,10 @@
     <title>Hamza Shaikh's Portfolio</title>
   </head>
   <body>
-    <div class="col-1 px-0 flex-column d-flex sidenav">
+    <div class="d-none d-md-block col-md-2 sidenav">
         <a class="pl-2" href="#top"> 
             <p>Hamza Shaikh</p>
-            <p>Aspiring CPA, Front End Developer</p>
+            <p>Front-End Developer</p>
         </a>
         <a class="list-item" href="#about">About</a>
         <a class="list-item" href="#work-exp">Work Experience</a>
@@ -25,9 +25,9 @@
         <a class="list-item" href="#skill">Skills</a>
         <a class="list-item" href="#contact">Contact</a>
     </div>
-    <div class="col-11 main">
-        <div class="main-title text-sm-center mb-5">
-            <h3 class="display-3">Hi, I'm Hamza Shaikh </h3>
+    <div class="col-md-10 col-xs-12 main">
+        <div class="main-title text-sm-center mb-5 img-fluid">
+            <h3 class="display-3 introduction">Hi, I'm Hamza Shaikh </h3>
             <h5 class="">CPA (in-progress), Entrepreneur, Front-End Web Developer </h5>
         </div>
 <!-- ABOUT -->
@@ -45,7 +45,7 @@
             <div class="photo-container">
                 <div class="photo slide">
                     <div class="card">
-                        <div class="card-header d-flex">
+                        <div class="card-header d-flex flex-wrap">
                             <img src="images/EYlogo.svg" alt="EY Logo" class="logo align-self-center">
                             <p class="align-self-end EY-title">EY Canada</p>
                             <p class="ml-auto align-self-end">Intermediate Staff Accountant</p>
@@ -87,24 +87,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class="photo-overlay-EY d-flex">
-                        <img src="images/workexp/coverphotos/EY-logo-background.png" alt="company placeholder" class="overlay-EY">
-                        <p class="slider-icon-left-EY"><<</p>
-                        <p class="slider-icon-right-EY">>></p>
+                    <div class="photo-overlay-EY d-sm-flex d-none">
+                        <img src="images/workexp/coverphotos/EY-logo-background.png" alt="company placeholder" class="overlay-EY align-self-center">
+                        <p class="slider-icon-left-EY">&lt;&lt;</p>
+                        <p class="slider-icon-right-EY">&gt;&gt;</p>
                     </div>
                 </div>
-            </div>
-            
+            </div>           
             <!-- END Intermediate Staff Accountant Section -->
         
             <!-- Staff Accountant Section -->
             <div class="photo-container">
                 <div class="photo slide">
                     <div class="card">
-                        <div class="card-header d-flex">
+                        <div class="card-header d-flex flex-wrap">
                             <img src="images/EYlogo.svg" alt="EY Logo" class="logo align-self-center">
-                            <p class="align-self-end EY-title">EY Canada</p>
-                            <p class="ml-auto align-self-end">Staff Accountant</p>
+                            <p class="align-self-md-end EY-title">EY Canada</p>
+                            <p class="ml-auto align-self-md-end">Staff Accountant</p>
                         </div>
                         <p>One of the four largest professional service firms in the world, with offices in 132 countries and bare other shit</p>
                         <div class="card-body">
@@ -143,10 +142,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="photo-overlay-EY d-flex">
+                    <div class="photo-overlay-EY d-sm-flex d-none">
                         <img src="images/workexp/coverphotos/EY-logo-background.png" alt="company placeholder" class="overlay-EY">
-                        <p class="slider-icon-left-EY"><<</p>
-                        <p class="slider-icon-right-EY">>></p>
+                        <p class="slider-icon-left-EY">&lt;&lt;</p>
+                        <p class="slider-icon-right-EY">&gt;&gt;</p>
                     </div>
                 </div>
             </div>
@@ -156,7 +155,7 @@
             <div class="photo-container">
                 <div class="photo slide">
                     <div class="card">
-                        <div class="card-header d-flex">
+                        <div class="card-header d-flex flex-wrap">
                             <img src="images/LimitlessAthletics.png" alt="Limitless Athletics Logo" class="align-self-center" id="LimitlessLogo">
                             <p class="align-self-end LA-title">Limitless Athletics</p>
                             <p class="ml-auto align-self-end">Founder</p>
@@ -198,42 +197,39 @@
                             </div>
                         </div>
                     </div>
-                    <div class="photo-overlay-LA d-flex">
+                    <div class="photo-overlay-LA d-sm-flex d-none">
                         <img src="images/workexp/coverphotos/LimitlessAthletics.png" alt="company placeholder" class="overlay-LA">
-                        <p class="slider-icon-left-LA"><<</p>
-                        <p class="slider-icon-right-LA">>></p>
+                        <p class="slider-icon-left-LA">&lt;&lt;</p>
+                        <p class="slider-icon-right-LA">&gt;&gt;</p>
                     </div>
                 </div>
             </div>
         </div>
 <!-- PROJECTS -->
         <h1 id="projects">Projects</h1>
-        <div class="container d-flex flex-wrap">
+        <div class="container center-container d-flex flex-wrap">
             <!-- INTERACTIVE PHOTO GALLERY -->
             <div class= "project-thumbnail">
                 <div class="mb-3 d-flex">
-                    <a href="../Project-5-InteractivePhotoGallery/index.html">
-                        <img src="images/projects/PhotoGallery.png" alt="Photo Gallery" class="project-icons justify-content-center">
-                    </a>
+                    <img src="images/projects/PhotoGallery.png" alt="Photo Gallery" class="project-icons justify-content-center">
                 </div>
                 <div class="project-overlay">
                     <p>Interactive Photo Gallery</p>
                     <p>A photo gallery app implemented with a Lightbox and searchable based on keywords.</p>
                     <p>Skills Developed:</p>
-                    <ul>
-                        <li>JavaScript</li>
-                        <li>JQuery Plug-In Implementation</li>
-                        <li>CSS</li>
-                        <li>HTML</li>
+                    <ul class="row">
+                        <li class="col-6">JavaScript</li>
+                        <li class="col-6">JQuery Plug-In Implementation</li>
+                        <li class="col-6">CSS</li>
+                        <li class="col-6">HTML</li>
                     </ul>
+                    <a href="https://hamzashaikh123.github.io/InteractivePhotoGallery/" class="button">Click to see more</a>
                 </div>
             </div>
             <!-- ONLINE REGISTRATION FORM -->
             <div class= "project-thumbnail">
                 <div class="mb-3 d-flex">
-                    <a href="../Project-3-OnlineRegistrationForm/index.html" class="d-flex">
-                        <img src="images/projects/FormProject.png" alt="Online Registration Form" class="project-icons justify-content-center">
-                    </a>
+                    <img src="images/projects/FormProject.png" alt="Online Registration Form" class="project-icons justify-content-center">
                 </div>
                 <div class="project-overlay">
                     <p>Online Registration Form</p>
@@ -244,14 +240,13 @@
                         <li>CSS Media Queries</li>
                         <li>HTML</li>
                     </ul>
+                    <a href="https://hamzashaikh123.github.io/OnlineRegistrationForm/" class="button">Click to see more</a>
                 </div>
             </div>
             <!-- GAME SHOW APP -->
             <div class= "project-thumbnail">
                 <div class="mb-3 d-flex">
-                    <a href="../Project-6-GameShowApp/index.html" class="d-flex">
-                        <img src="images/projects/HangmanGameApp.png" alt="Guessing Game" class="project-icons justify-content-center">
-                    </a>  
+                    <img src="images/projects/HangmanGameApp.png" alt="Guessing Game" class="project-icons justify-content-center">
                 </div>
                 <div class="project-overlay">
                     <p>Hangman Game App</p>
@@ -263,14 +258,13 @@
                         <li>JavaScript</li>
                         <li>HTML</li>
                     </ul>
+                    <a href="https://hamzashaikh123.github.io/GameShowApp" class="button">Click to see more</a>  
                 </div>
             </div>
             <!-- WEB DASHBOARD APP -->
             <div class= "project-thumbnail">
                 <div class="mb-3 d-flex">
-                    <a href="../Project-7-WebAppDashboard/index.html" class="d-flex">
-                        <img src="images/projects/dashboard.png" alt="Web App Dashboard" class="project-icons justify-content-center">
-                    </a>
+                    <img src="images/projects/dashboard.png" alt="Web App Dashboard" class="project-icons justify-content-center">
                 </div>
                 <div class="project-overlay">
                     <p>WebApp Dashboard</p>
@@ -285,14 +279,13 @@
                         <li class="col-4">CSS Flexbox</li>
                         <li class="col-4">HTML</li>
                     </ul>
+                    <a href="https://hamzashaikh123.github.io/WebAppDashboard/" class="button">Click to see more</a>
                 </div>
             </div>
             <!-- EMPLOYEE DIRECTORY API -->
             <div class= "project-thumbnail">
                 <div class="mb-3 d-flex">
-                    <a href="../Project-8-EmployeeDirectoryAPI/index.html" class="d-flex">
-                        <img src="images/projects/EmployeeDirectory.png" alt="Employee API Directory" class="project-icons justify-content-center">
-                    </a>
+                    <img src="images/projects/EmployeeDirectory.png" alt="Employee API Directory" class="project-icons justify-content-center">
                 </div>
                 <div class="project-overlay">
                     <p>Employee API Directory</p>
@@ -306,14 +299,13 @@
                         <li class="col-4">CSS Flexbox</li>
                         <li class="col-4">HTML</li>
                     </ul>
+                    <a href="https://hamzashaikh123.github.io/EmployeeDirectoryAPI/" class="button">Click to see more</a>
                 </div>
             </div>
             <!-- WEB STYLE GUIDE -->
             <div class= "project-thumbnail">
                 <div class="mb-3 d-flex">
-                    <a href="../Project4-WebStyleGuide/index.html" class="d-flex">
-                        <img src="images/projects/WebStylesGuide.png" alt="Web Styles Guide" class="project-icons justify-content-center">
-                    </a>  
+                    <img src="images/projects/WebStylesGuide.png" alt="Web Styles Guide" class="project-icons justify-content-center">
                 </div> 
                 <div class="project-overlay">
                     <p>Web Style Guide</p>
@@ -324,6 +316,7 @@
                         <li>CSS</li>
                         <li>HTML</li>
                     </ul>
+                    <a href="https://hamzashaikh123.github.io/WebStyleGuide/" class="button">Click to see more</a>
                 </div>
 
             </div>                   
@@ -421,6 +414,19 @@
                     </div>
                 </div>
             </div>
+        </div>
+<!-- CONTACT -->
+        <h1 id="skill">Contact</h1>
+        <div class="d-flex center-container">
+            <a href="mailto:hamzashaikh1996@gmail.com" target="_blank">
+                <img src="images/contact/gmail.svg" alt="gmail contact info" class="contact-icon">
+            </a>
+            <a href="https://linkedin.com/in/hshaikhh" target="_blank">
+                <img src="images/contact/linkedin.svg" alt="linkedin contact info" class="contact-icon">
+            </a>
+            <a href="https://github.com/hamzashaikh123">
+                <img src="images/contact/logo.svg" alt="github contact info" class="contact-icon">
+            </a>
         </div>
     </div>
     <!-- Optional JavaScript -->
