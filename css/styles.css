@@ -270,8 +270,8 @@
 
 /*============================== CONTACT =============================================*/
 .contact-icon{
-    width: 100px;
-    margin: 0 100px;
+    width: 80px;
+    margin: 15px 100px;
 }
 
 /*============================== Media Queries =============================================*/
@@ -352,6 +352,10 @@
         width:80%;
         margin: 0 auto;
     }   
+    .contact-icon{
+        width: 100px;
+        margin: 0 25px;
+    }
 }
 
 @media (min-width:1024px){
@@ -375,6 +379,7 @@
         width:100%;
         margin: 0 auto;
     } 
+
        
 }
 @media (min-width:1440px){
@@ -394,6 +399,8 @@
         width:80%;
         margin: 0 auto;
     } 
-    
+    .contact-icon{
+        margin: 0 100px;
+    }
 
 }
