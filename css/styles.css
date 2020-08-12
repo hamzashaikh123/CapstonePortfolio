@@ -46,8 +46,8 @@ li{
     border: none;
 }  
 .main-title{
-    background-position: 18%;
-    background-image: url(../images/googleimg.jpeg);
+    background-position: 40%;
+    background-image: url(../images/profileimg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100vh;
@@ -533,6 +533,9 @@ li{
 @media (min-width:1440px){
     .mission-statement{
         font-size: 50px;
+    }
+    .main-title{
+        background-position: top;
     }
     .project-thumbnail{
         width: 350px;
