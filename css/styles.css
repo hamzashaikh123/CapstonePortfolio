@@ -146,6 +146,10 @@ li{
 .work-date{
     color: #05f29b;
 }
+#int-staff-acc{
+    font-size:14px;
+    text-align: left;
+}
 
 #LimitlessLogo{
     width:50px;
