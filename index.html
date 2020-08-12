@@ -4,7 +4,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap');
+    </style>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
@@ -31,420 +33,428 @@
     </div>
   </nav>
 <!-- NAV BAR (NON-MOBILE) -->
-    <div class="d-none d-md-block col-md-2 sidenav">
+    <div class="nav d-none d-md-block sidenav list-group list-group-flush" id="sidenav">
         <a class="pl-2" href="#top"> 
-            <p>Hamza Shaikh</p>
-            <p>Front-End Developer</p>
+            <p class="name">Hamza Shaikh</p>
+            <p class="name">Front-End Developer</p>
         </a>
-        <a class="list-item" href="#about">About</a>
-        <a class="list-item" href="#work-exp">Work Experience</a>
-        <a class="list-item" href="#projects">Projects</a>
-        <a class="list-item" href="#education">Education</a>
-        <a class="list-item" href="#skill">Skills</a>
-        <a class="list-item" href="#contact">Contact</a>
+        <a class="list-item list-group-item list-group-item-action" href="#about">About</a>
+        <a class="list-item list-group-item list-group-item-action" href="#work-exp">Work Experience</a>
+        <a class="list-item list-group-item list-group-item-action" href="#projects">Projects</a>
+        <a class="list-item list-group-item list-group-item-action" href="#education">Education</a>
+        <a class="list-item list-group-item list-group-item-action" href="#skill">Skills</a>
+        <a class="list-item list-group-item list-group-item-action" href="#contact">Contact</a>
     </div>
-    <div class="col-md-10 col-xs-12 main">
-        <div class="main-title text-sm-center mb-5 img-fluid">
-            <h3 class="display-3 introduction">Hi, I'm Hamza Shaikh </h3>
-            <h5 class="">CPA (in-progress), Entrepreneur, Front-End Web Developer </h5>
+    <div class="col-xs-12 main" data-spy="scroll" data-target="#sidenav" data-offset="0" >
+        <div id="top"class="main-title text-sm-center mb-5 img-fluid">
+            <h3 class="display-3 introduction">HI, I'M HAMZA SHAIKH </h3>
+            <p class="designation">CPA (in-progress), Entrepreneur, Front-End Web Developer </p>
         </div>
 <!-- ABOUT -->
-        <h1 id="about">About</h1>
-        <div class="container">
-            <p>A goal-oriented learner always eager to take on new challenges with a passion for innovation and entrepreneurship</p>
-            <p>I'm currently working as an Auditor at EY while pursuing my CPA Designation. On my freetime I'm committed to learning valuable skills that will compliment my designation while also bringing me closer to my true passion of Innovation and Technology.</p>
-            <p>After completing my Front-End Development TechDegreee at TeamTreehouse I plan on learning more complex coding languages (such as: Swift, Java, and React) to transition into Product/App Development. My goal is to enter the Startup World - Either as a Founder or Early Team Member - to really create an impact in the world! </p>
-        </div>
+        <div class="content">
+            <h1 class="content-heading" id="about">ABOUT</h1>
+            <div class="">
+                <p class="mission-statement">A goal-oriented learner always eager to take on new challenges with a passion for innovation and entrepreneurship</p>
+                <p>I'm currently working as an Auditor at EY while pursuing my CPA Designation. On my freetime I'm committed to learning valuable skills that will compliment my designation while also bringing me closer to my true passion of Innovation and Technology.</p>
+                <p>After completing my Front-End Development TechDegreee at TeamTreehouse I plan on learning more complex coding languages (such as: Swift, Java, and React) to transition into Product/App Development. My goal is to enter the Startup World - Either as a Founder or Early Team Member - to really create an impact in the world! </p>
+            </div>
 <!-- WORK EXPEREINCE -->
-        <h1 id="work-exp">Work Experience</h1>
-        <p class="subheading">Slide for Details</p>
-        <div class="container">
-            <!-- Intermediate staff accountant -->
-            <div class="photo-container">
-                <div class="photo slide">
-                    <div class="card">
-                        <div class="card-header d-flex flex-wrap">
-                            <img src="images/EYlogo.svg" alt="EY Logo" class="logo align-self-center">
-                            <p class="align-self-end EY-title">EY Canada</p>
-                            <p class="ml-auto align-self-end">Intermediate Staff Accountant</p>
+            <div class="d-flex">
+                <h1 class="content-heading" id="work-exp">WORK EXPERIENCE</h1>
+                <p class="subheading">Slide for Details</p>
+            </div>
+            <section>
+                <!-- Intermediate staff accountant -->
+                <div class="photo-container">
+                    <div class="photo slide">
+                        <div class="card">
+                            <div class="card-header d-flex flex-wrap">
+                                <p class="align-self-end EY-title">EY Canada</p>
+                                <p class="ml-auto align-self-end job-role">Intermediate Staff Accountant</p>
+                            </div>
+                            <p class= "company-description">With people and operations in more than 150 countries, EY is one of the largest professional service firms in the world. Specializing in Assurance, Consulting, Strategy and Transactions, and Tax, EY is committed to doing it's part in building a better working world. EY is determined to developing outstanding leaders who team to deliver on promises to their stakeholders. In doing so, EY plays a crucial role in building a better working world for their people, clients, and communities.</p>
+                            <div class="card-body">
+                                <p class="card-title">Key Responsibility:</p>
+                                <ul>
+                                    <li class="card-text">Mentor first-year staff, intern's, and co-op students while they learn audit fundementals</li>
+                                    <li class="card-text">Performed audit procedures over high risk accounts (variate depending on client and industry)</li>
+                                    <li class="card-text">Serve as a liason between the Client and Engagement Manager </li>
+                                    <li class="card-text">Manage overseas component team that perform assigned audit tasks</li>
+                                </ul>
+                                <p class="card-title"> Skills Developed:</p>
+                                <div class="container">
+                                    <div class="row ">
+                                        <div class="col-sm ">
+                                            <div class="d-flex">
+                                                <img src="images/workexp/microsoft.svg" alt="Microsoft Excel" class="skills-logo">
+                                            </div>
+                                            <p class="skills-text">Advanced Microsoft Excel Functions</p>
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="d-flex">
+                                                <img src="images/workexp/clock.svg" alt="Client Facing communication" class="skills-logo">
+                                            </div>
+                                            <p class="skills-text">Client-Facing and Team-Based Communication</p>
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="d-flex">
+                                                <img src="images/workexp/loupe.svg" alt="Data Analysis" class="skills-logo">  
+                                            </div>
+                                            <p class="skills-text">Micro and Macro Level Data Analysis</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer text-muted">
+                                    <p class="work-date">September 2018 - Present</p>
+                                </div>
+                            </div>
                         </div>
-                        <p>One of the four largest professional service firms in the world, with offices in 132 countries and bare other shit</p>
-                        <div class="card-body">
-                            <h5 class="card-title">Key Responsibility:</h5>
-                            <ul>
-                                <li class="card-text">Mentor first-year staff, intern's, and co-op students while they learn audit fundementals</li>
-                                <li class="card-text">Performed audit procedures over high risk accounts (variate depending on client and industry)</li>
-                                <li class="card-text">Serve as a liason between the Client and Engagement Manager </li>
-                                <li class="card-text">Manage overseas component team that perform assigned audit tasks</li>
-                            </ul>
-                            <h5 class="card-title"> Skills Developed:</h5>
-                            <div class="container">
+                        <div class="photo-overlay-EY d-sm-flex d-none">
+                            <img src="images/workexp/coverphotos/EY-logo-background.png" alt="company placeholder" class="overlay-EY align-self-center">
+                            <p class="slider-icon-left-EY">&lt;&lt;</p>
+                            <p class="slider-icon-right-EY">&gt;&gt;</p>
+                        </div>
+                    </div>
+                </div>           
+                <!-- END Intermediate Staff Accountant Section -->
+                <!-- Staff Accountant Section -->
+                <div class="photo-container">
+                    <div class="photo slide">
+                        <div class="card">
+                            <div class="card-header d-flex flex-wrap">
+                                <p class="align-self-md-end EY-title">EY Canada</p>
+                                <p class="ml-auto align-self-md-end job-role">Staff Accountant</p>
+                            </div>
+                            <p class= "company-description">With people and operations in more than 150 countries, EY is one of the largest professional service firms in the world. Specializing in Assurance, Consulting, Strategy and Transactions, and Tax, EY is committed to doing it's part in building a better working world. EY is determined to developing outstanding leaders who team to deliver on promises to their stakeholders. In doing so, EY plays a crucial role in building a better working world for their people, clients, and communities.</p>
+                            <div class="card-body">
+                                <p class="card-title">Key Responsibility:</p>
+                                <ul>
+                                    <li class="card-text">Learn audit procedures and handle testing for low-risk acccounts such as: Cash, Fixed Assets, and Selling, General and Admin. Expenses</li>
+                                    <li class="card-text">Assist upper-level associates with audit tasks and performing preliminary data validation on account balances</li>
+                                    <li class="card-text">Perform and document walkthroughs for significant accounts during meetings with key client personnel</li>
+                                    <li class="card-text">Identified annual account variances and obtained reasonable explanations from management </li>
+                                </ul>
+                                <p class="card-title"> Skills Developed:</p>
+                                <div class="container">
+                                    <div class="row ">
+                                        <div class="col-sm ">
+                                            <div class="d-flex">
+                                                <img src="images/workexp/excel.svg" alt="Microsoft Excel" class="skills-logo">
+                                            </div>
+                                            <p class="skills-text">Advanced Microsoft Excel Functions</p>
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="d-flex">
+                                                <img src="images/workexp/chat.svg" alt="Client Facing communication" class="skills-logo">
+                                            </div>
+                                            <p class="skills-text">Client-Facing and Team-Based Communication</p>
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="d-flex">
+                                                <img src="images/workexp/laptop.svg" alt="Data Analysis" class="skills-logo">  
+                                            </div>
+                                            <p class="skills-text">Micro and Macro Level Data Analysis</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer text-muted">
+                                    <p class="work-date">September 2018 - October 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="photo-overlay-EY d-sm-flex d-none">
+                            <img src="images/workexp/coverphotos/EY-logo-background.png" alt="company placeholder" class="overlay-EY">
+                            <p class="slider-icon-left-EY">&lt;&lt;</p>
+                            <p class="slider-icon-right-EY">&gt;&gt;</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END Staff Accountant Section -->
+                <!-- Limitless Athletics Section -->
+                <div class="photo-container">
+                    <div class="photo slide">
+                        <div class="card">
+                            <div class="card-header d-flex flex-wrap">
+                                <p class="align-self-end LA-title">Limitless Athletics</p>
+                                <p class="ml-auto align-self-end job-role">Founder</p>
+                            </div>
+                            <p class="company-description">Limitless Athletics started off as a passion project which eventually transitioned into a profitable business venture. With the goal to help busy working professionals maintain a healthy balance between career and lifestyle, Limitless Athletics provided monthly subscribers with one of three uniquely currated <i>Fitbox's</i> that catered to the challenges presented in their daily work environment.</p>
+                            <div class="card-body">
+                                <p class="card-title">Key Responsibility:</p>
+                                <ul>
+                                    <li class="card-text">Designed products for Limitless Athletics that would be beneficial for subscriber lifestyles</li>
+                                    <li class="card-text">Managed logistics between inventory coming in oversees, products being currated, and final shipments</li>
+                                    <li class="card-text">Cultivated business relationships with vendors that would contribute to the items inside the Fitbox</li>
+                                    <li class="card-text">Created and managed content for social media accounts, specifically ads and marketing posts</li>
+                                    <li class="card-text">Managed company cashflows for profits to be re-invested to create growth in an organized manner.</li>
+                                </ul>
+                                <p class="card-title"> Skills Developed:</p>
                                 <div class="row ">
+                                    <div class="col-sm">
+                                        <div class="d-flex">
+                                            <img src="images/workexp/home-office.svg" alt="Entrepreurship" class="skills-logo">  
+                                        </div>
+                                        <p class="skills-text">Sole-Proprietor Business Management</p>
+                                    </div>
                                     <div class="col-sm ">
                                         <div class="d-flex">
-                                            <img src="images/workexp/microsoft.svg" alt="Microsoft Excel" class="skills-logo">
+                                            <img src="images/workexp/tshirt.svg" alt="Product Design" class="skills-logo">
                                         </div>
-                                        <p class="skills-text">Advanced Microsoft Excel Functions</p>
+                                        <p class="skills-text">Product Design and Application of Design Thinkning Principles</p>
                                     </div>
                                     <div class="col-sm">
                                         <div class="d-flex">
-                                            <img src="images/workexp/clock.svg" alt="Client Facing communication" class="skills-logo">
+                                            <img src="images/workexp/campaign.svg" alt="Social Media Management" class="skills-logo">
                                         </div>
-                                        <p class="skills-text">Client-Facing and Team-Based Communication</p>
-                                    </div>
-                                    <div class="col-sm">
-                                        <div class="d-flex">
-                                            <img src="images/workexp/loupe.svg" alt="Data Analysis" class="skills-logo">  
-                                        </div>
-                                        <p class="skills-text">Micro and Macro Level Data Analysis</p>
+                                        <p class="skills-text">Social Media Marketing and Online Advertising</p>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card-footer text-muted">
-                                September 2018 - October 2019
-                            </div>
-                        </div>
-                    </div>
-                    <div class="photo-overlay-EY d-sm-flex d-none">
-                        <img src="images/workexp/coverphotos/EY-logo-background.png" alt="company placeholder" class="overlay-EY align-self-center">
-                        <p class="slider-icon-left-EY">&lt;&lt;</p>
-                        <p class="slider-icon-right-EY">&gt;&gt;</p>
-                    </div>
-                </div>
-            </div>           
-            <!-- END Intermediate Staff Accountant Section -->
-        
-            <!-- Staff Accountant Section -->
-            <div class="photo-container">
-                <div class="photo slide">
-                    <div class="card">
-                        <div class="card-header d-flex flex-wrap">
-                            <img src="images/EYlogo.svg" alt="EY Logo" class="logo align-self-center">
-                            <p class="align-self-md-end EY-title">EY Canada</p>
-                            <p class="ml-auto align-self-md-end">Staff Accountant</p>
-                        </div>
-                        <p>One of the four largest professional service firms in the world, with offices in 132 countries and bare other shit</p>
-                        <div class="card-body">
-                            <h5 class="card-title">Key Responsibility:</h5>
-                            <ul>
-                                <li class="card-text">Learn audit procedures and handle testing for low-risk acccounts such as: Cash, Fixed Assets, and Selling, General and Admin. Expenses</li>
-                                <li class="card-text">Assist upper-level associates with audit tasks and performing preliminary data validation on account balances</li>
-                                <li class="card-text">Perform and document walkthroughs for significant accounts during meetings with key client personnel</li>
-                                <li class="card-text">Identified annual account variances and obtained reasonable explanations from management </li>
-                            </ul>
-                            <h5 class="card-title"> Skills Developed:</h5>
-                            <div class="container">
-                                <div class="row ">
-                                    <div class="col-sm ">
-                                        <div class="d-flex">
-                                            <img src="images/workexp/excel.svg" alt="Microsoft Excel" class="skills-logo">
-                                        </div>
-                                        <p class="skills-text">Advanced Microsoft Excel Functions</p>
-                                    </div>
-                                    <div class="col-sm">
-                                        <div class="d-flex">
-                                            <img src="images/workexp/chat.svg" alt="Client Facing communication" class="skills-logo">
-                                        </div>
-                                        <p class="skills-text">Client-Facing and Team-Based Communication</p>
-                                    </div>
-                                    <div class="col-sm">
-                                        <div class="d-flex">
-                                            <img src="images/workexp/laptop.svg" alt="Data Analysis" class="skills-logo">  
-                                        </div>
-                                        <p class="skills-text">Micro and Macro Level Data Analysis</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer text-muted">
-                                September 2018 - October 2019
-                            </div>
-                        </div>
-                    </div>
-                    <div class="photo-overlay-EY d-sm-flex d-none">
-                        <img src="images/workexp/coverphotos/EY-logo-background.png" alt="company placeholder" class="overlay-EY">
-                        <p class="slider-icon-left-EY">&lt;&lt;</p>
-                        <p class="slider-icon-right-EY">&gt;&gt;</p>
-                    </div>
-                </div>
-            </div>
-            <!-- END Staff Accountant Section -->
 
-            <!-- Limitless Athletics Section -->
-            <div class="photo-container">
-                <div class="photo slide">
-                    <div class="card">
-                        <div class="card-header d-flex flex-wrap">
-                            <img src="images/LimitlessAthletics.png" alt="Limitless Athletics Logo" class="align-self-center" id="LimitlessLogo">
-                            <p class="align-self-end LA-title">Limitless Athletics</p>
-                            <p class="ml-auto align-self-end">Founder</p>
-                        </div>
-                        <p>Limitless Athletics started off as a passion project which eventually transitioned into a profitable business venture. With the goal to help busy working professionals maintain a healthy balance between career and lifestyle, Limitless Athletics provided monthly subscribers with one of three uniquely currated <i>Fitbox's</i> that catered to the challenges presented in their daily work environment.</p>
-                        <div class="card-body">
-                            <h5 class="card-title">Key Responsibility:</h5>
-                            <ul>
-                                <li class="card-text">Designed products for Limitless Athletics that would be beneficial for subscriber lifestyles</li>
-                                <li class="card-text">Managed logistics between inventory coming in oversees, products being currated, and final shipments</li>
-                                <li class="card-text">Cultivated business relationships with vendors that would contribute to the items inside the Fitbox</li>
-                                <li class="card-text">Created and managed content for social media accounts, specifically ads and marketing posts</li>
-                                <li class="card-text">Managed company cashflows for profits to be re-invested to create growth in an organized manner.</li>
-                            </ul>
-                            <h5 class="card-title"> Skills Developed:</h5>
-                            <div class="row ">
-                                <div class="col-sm">
-                                    <div class="d-flex">
-                                        <img src="images/workexp/home-office.svg" alt="Entrepreurship" class="skills-logo">  
-                                    </div>
-                                    <p class="skills-text">Sole-Proprietor Business Management</p>
-                                </div>
-                                <div class="col-sm ">
-                                    <div class="d-flex">
-                                        <img src="images/workexp/tshirt.svg" alt="Product Design" class="skills-logo">
-                                    </div>
-                                    <p class="skills-text">Product Design and Application of Design Thinkning Principles</p>
-                                </div>
-                                <div class="col-sm">
-                                    <div class="d-flex">
-                                        <img src="images/workexp/campaign.svg" alt="Social Media Management" class="skills-logo">
-                                    </div>
-                                    <p class="skills-text">Social Media Marketing and Online Advertising</p>
+                                <div class="card-footer text-muted">
+                                    <p class="work-date">September 2018 - October 2019</p>
                                 </div>
                             </div>
-
-                            <div class="card-footer text-muted">
-                                September 2018 - October 2019
-                            </div>
                         </div>
-                    </div>
-                    <div class="photo-overlay-LA d-sm-flex d-none">
-                        <img src="images/workexp/coverphotos/LimitlessAthletics.png" alt="company placeholder" class="overlay-LA">
-                        <p class="slider-icon-left-LA">&lt;&lt;</p>
-                        <p class="slider-icon-right-LA">&gt;&gt;</p>
+                        <div class="photo-overlay-LA d-sm-flex d-none">
+                            <img src="images/workexp/coverphotos/LimitlessAthletics.png" alt="company placeholder" class="overlay-LA">
+                            <p class="slider-icon-left-LA">&lt;&lt;</p>
+                            <p class="slider-icon-right-LA">&gt;&gt;</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
 <!-- PROJECTS -->
-        <h1 id="projects">Projects</h1>
-        <div class="container center-container d-flex flex-wrap">
-            <!-- INTERACTIVE PHOTO GALLERY -->
-            <div class= "project-thumbnail">
-                <div class="mb-3 d-flex">
-                    <img src="images/projects/PhotoGallery.png" alt="Photo Gallery" class="project-icons justify-content-center">
+            <h1 class=" content-heading" id="projects">PROJECTS</h1>
+            <div class="center-container d-flex flex-wrap">
+                <!-- INTERACTIVE PHOTO GALLERY -->
+                <div class= "project-thumbnail">
+                    <div class="mb-3 d-flex">
+                        <img src="images/projects/PhotoGallery.png" alt="Photo Gallery" class="project-icons justify-content-center">
+                    </div>
+                    <div class="project-overlay">
+                        <p class="project-title">Interactive Photo Gallery</p>
+                        <p class="project-text">A photo gallery app implemented with a Lightbox and searchable based on keywords.</p>
+                        <p class="project-title"> Skills Developed:</p>
+                        <ul>
+                            <li class="project-text">JavaScript</li>
+                            <li class="project-text">JQuery Plug-Ins</li>
+                            <li class="project-text">HTML</li>
+                        </ul>
+                        <a href="https://hamzashaikh123.github.io/InteractivePhotoGallery/" class="button">Click to see more</a>
+                    </div>
                 </div>
-                <div class="project-overlay">
-                    <p>Interactive Photo Gallery</p>
-                    <p>A photo gallery app implemented with a Lightbox and searchable based on keywords.</p>
-                    <p>Skills Developed:</p>
-                    <ul class="row">
-                        <li class="col-6">JavaScript</li>
-                        <li class="col-6">JQuery Plug-In Implementation</li>
-                        <li class="col-6">CSS</li>
-                        <li class="col-6">HTML</li>
-                    </ul>
-                    <a href="https://hamzashaikh123.github.io/InteractivePhotoGallery/" class="button">Click to see more</a>
+                <!-- ONLINE REGISTRATION FORM -->
+                <div class= "project-thumbnail">
+                    <div class="mb-3 d-flex">
+                        <img src="images/projects/FormProject.png" alt="Online Registration Form" class="project-icons justify-content-center">
+                    </div>
+                    <div class="project-overlay">
+                        <p class="project-title">Online Registration Form</p>
+                        <p class="project-text">An online form designed with CSS forms, designed with different media query breakpoints.</p>
+                        <p class="project-title">Skills Developed:</p>
+                        <ul>
+                            <li class="project-text">CSS Form design</li>
+                            <li class="project-text">CSS Media Queries</li>
+                            <li class="project-text">HTML</li>
+                        </ul>
+                        <a href="https://hamzashaikh123.github.io/OnlineRegistrationForm/" class="button">Click to see more</a>
+                    </div>
                 </div>
-            </div>
-            <!-- ONLINE REGISTRATION FORM -->
-            <div class= "project-thumbnail">
-                <div class="mb-3 d-flex">
-                    <img src="images/projects/FormProject.png" alt="Online Registration Form" class="project-icons justify-content-center">
+                <!-- GAME SHOW APP -->
+                <div class= "project-thumbnail">
+                    <div class="mb-3 d-flex">
+                        <img src="images/projects/HangmanGameApp.png" alt="Guessing Game" class="project-icons justify-content-center">
+                    </div>
+                    <div class="project-overlay">
+                        <p class="project-title">Hangman Game App</p>
+                        <p class="project-text">An in-browser phrase-guessing game made with JavaScript.</p>
+                        <p class="project-title">Skills Developed:</p>
+                        <ul>
+                            <li class="project-text">CSS</li>
+                            <li class="project-text">JQuery</li>
+                            <li class="project-text">JavaScript</li>
+                        </ul>
+                        <a href="https://hamzashaikh123.github.io/GameShowApp" class="button">Click to see more</a>  
+                    </div>
                 </div>
-                <div class="project-overlay">
-                    <p>Online Registration Form</p>
-                    <p>An online form designed with CSS forms, designed with different media query breakpoints.</p>
-                    <p>Skills Developed:</p>
-                    <ul>
-                        <li>CSS Form design</li>
-                        <li>CSS Media Queries</li>
-                        <li>HTML</li>
-                    </ul>
-                    <a href="https://hamzashaikh123.github.io/OnlineRegistrationForm/" class="button">Click to see more</a>
+                <!-- WEB DASHBOARD APP -->
+                <div class= "project-thumbnail">
+                    <div class="mb-3 d-flex">
+                        <img src="images/projects/dashboard.png" alt="Web App Dashboard" class="project-icons justify-content-center">
+                    </div>
+                    <div class="project-overlay">
+                        <p class="project-title">WebApp Dashboard</p>
+                        <p class="project-text">An interactive Web-App made with SVG, adjustable graphs and charts, an auto-complete search feature, and more.</p>
+                        <p class="project-title">Skills Developed:</p>
+                        <ul>
+                            <li class="project-text">JavaScript</li>
+                            <li class="project-text">SVG</li>
+                            <li class="project-text">JQuery</li>
+                        </ul>
+                        <a href="https://hamzashaikh123.github.io/WebAppDashboard/" class="button">Click to see more</a>
+                    </div>
                 </div>
-            </div>
-            <!-- GAME SHOW APP -->
-            <div class= "project-thumbnail">
-                <div class="mb-3 d-flex">
-                    <img src="images/projects/HangmanGameApp.png" alt="Guessing Game" class="project-icons justify-content-center">
+                <!-- EMPLOYEE DIRECTORY API -->
+                <div class= "project-thumbnail">
+                    <div class="mb-3 d-flex">
+                        <img src="images/projects/EmployeeDirectory.png" alt="Employee API Directory" class="project-icons justify-content-center">
+                    </div>
+                    <div class="project-overlay">
+                        <p class="project-title">Employee API Directory</p>
+                        <p class="project-text">An employee directory featuring random employees taken from a third-party API fetch request, and a navigable modal.</p>
+                        <p class="project-title">Skills Developed:</p>
+                        <ul>
+                            <li class="project-text">Fetch API</li>
+                            <li class="project-text">SASS</li>
+                            <li class="project-text">CSS Grid Layout & Flexbox</li>
+                        </ul>
+                        <a href="https://hamzashaikh123.github.io/EmployeeDirectoryAPI/" class="button">Click to see more</a>
+                    </div>
                 </div>
-                <div class="project-overlay">
-                    <p>Hangman Game App</p>
-                    <p>An in-browser phrase-guessing game made with JavaScript.</p>
-                    <p>Skills Developed:</p>
-                    <ul>
-                        <li>CSS</li>
-                        <li>JQuery</li>
-                        <li>JavaScript</li>
-                        <li>HTML</li>
-                    </ul>
-                    <a href="https://hamzashaikh123.github.io/GameShowApp" class="button">Click to see more</a>  
-                </div>
-            </div>
-            <!-- WEB DASHBOARD APP -->
-            <div class= "project-thumbnail">
-                <div class="mb-3 d-flex">
-                    <img src="images/projects/dashboard.png" alt="Web App Dashboard" class="project-icons justify-content-center">
-                </div>
-                <div class="project-overlay">
-                    <p>WebApp Dashboard</p>
-                    <p>An interactive Web-App made with SVG, adjustable graphs and charts, an auto-complete search feature, and more.</p>
-                    <p>Skills Developed:</p>
-                    <ul class="row">
-                        <li class="col-4">JavaScript</li>
-                        <li class="col-4">Sass</li>
-                        <li class="col-4">SVG</li>
-                        <li class="col-4">CSS Grid Layout</li>
-                        <li class="col-4">JQuery</li>
-                        <li class="col-4">CSS Flexbox</li>
-                        <li class="col-4">HTML</li>
-                    </ul>
-                    <a href="https://hamzashaikh123.github.io/WebAppDashboard/" class="button">Click to see more</a>
-                </div>
-            </div>
-            <!-- EMPLOYEE DIRECTORY API -->
-            <div class= "project-thumbnail">
-                <div class="mb-3 d-flex">
-                    <img src="images/projects/EmployeeDirectory.png" alt="Employee API Directory" class="project-icons justify-content-center">
-                </div>
-                <div class="project-overlay">
-                    <p>Employee API Directory</p>
-                    <p>An employee directory featuring random employees taken from a third-party API fetch request, and a navigable modal.</p>
-                    <p>Skills Developed:</p>
-                    <ul class="row">
-                        <li class="col-4">JavaScript</li>
-                        <li class="col-4">Fetch API</li>
-                        <li class="col-4">SASS</li>
-                        <li class="col-4">CSS Grid Layout</li>
-                        <li class="col-4">CSS Flexbox</li>
-                        <li class="col-4">HTML</li>
-                    </ul>
-                    <a href="https://hamzashaikh123.github.io/EmployeeDirectoryAPI/" class="button">Click to see more</a>
-                </div>
-            </div>
-            <!-- WEB STYLE GUIDE -->
-            <div class= "project-thumbnail">
-                <div class="mb-3 d-flex">
-                    <img src="images/projects/WebStylesGuide.png" alt="Web Styles Guide" class="project-icons justify-content-center">
-                </div> 
-                <div class="project-overlay">
-                    <p>Web Style Guide</p>
-                    <p>A styles guide made alongside a mock-up website which predominately utilizes Sass.</p>
-                    <p>Skills Developed:</p>
-                    <ul>
-                        <li>SASS</li>
-                        <li>CSS</li>
-                        <li>HTML</li>
-                    </ul>
-                    <a href="https://hamzashaikh123.github.io/WebStyleGuide/" class="button">Click to see more</a>
-                </div>
+                <!-- WEB STYLE GUIDE -->
+                <div class= "project-thumbnail">
+                    <div class="mb-3 d-flex">
+                        <img src="images/projects/WebStylesGuide.png" alt="Web Styles Guide" class="project-icons justify-content-center">
+                    </div> 
+                    <div class="project-overlay">
+                        <p class="project-title">Web Style Guide</p>
+                        <p class="project-text">A styles guide made alongside a mock-up website which predominately utilizes Sass.</p>
+                        <p class="project-title">Skills Developed:</p>
+                        <ul>
+                            <li class="project-text">SASS</li>
+                            <li class="project-text">CSS</li>
+                            <li class="project-text">HTML</li>
+                        </ul>
+                        <a href="https://hamzashaikh123.github.io/WebStyleGuide/" class="button">Click to see more</a>
+                    </div>
 
-            </div>                   
-        </div>
+                </div>                   
+            </div>
 <!-- EDUCATION -->
-        <h1 id="education">Education</h1>
-        <div class="container">
-            <!-- GDIP Section -->
-            <div class="card mb-3">
-                <h5 class="card-header">Rotman School of Management</h5>
-                <div class="card-body">
-                    <h5 class="card-title"><i> Graduate Diploma</i></h5>
-                    <p class="card-text">Graduate Diploma in Professional Accounting</p>
+            <h1 class="content-heading" id="education">EDUCATION</h1>
+            <div class="">
+                <!-- GDIP Section -->
+                <div class="card mb-5">
+                    <p class="degree-header">Rotman School of Management</p>
+                    <div class="card-body">
+                        <p class="degree-title">Graduate Diploma</p>
+                        <p class="card-text">Graduate Diploma in Professional Accounting</p>
+                    </div>
                 </div>
+                <!-- GDIP Section END-->
+                
+                <!-- BCOMM UofT Section -->
+                <div class="card mb-5 mt-3">
+                    <p class="degree-header">University of Toronto - Rotman Commerce</p>
+                    <div class="card-body">
+                        <p class="degree-title">Bachelors Degree</p>
+                        <p class="card-text">Hons. BCOMM - Specialization in Public Accounting w/ Minor in Economics</p>
+                    </div>
                 </div>
-            <!-- GDIP Section END-->
-            
-            <!-- BCOMM UofT Section -->
-            <div class="card mb-3 mt-3">
-                <h5 class="card-header">University of Toronto - Rotman Commerce</h5>
-                <div class="card-body">
-                    <h5 class="card-title"><i> Bachelors Degree</i></h5>
-                    <p class="card-text">Hons. BCOMM - Specialization in Public Accounting w/ Minor in Economics</p>
-                </div>
-                </div>
-            <!-- BCOMM UofT Section END -->
+                <!-- BCOMM UofT Section END -->
 
-            <!-- BCOMM UofT Section -->
-            <div class="card mb-3 mt-3">
-                <h5 class="card-header">Team Treehouse</h5>
-                <div class="card-body">
-                    <h5 class="card-title"><i> Front-End Web Development TechDegreee</i></h5>
-                    <p class="card-text">Understanding and applying the fundementals of front-end web development through the following skills:</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>Sass</li>
-                        <li>jQuery</li>
-                    </ul>
-                </div>
-                </div>
-            <!-- BCOMM UofT Section END -->
-        </div>
-<!-- SKILLS -->
-        <h1 id="skill">Skills</h1>
-        <div class="container">
-            <div class="card-columns center-container">
-                <div class="card d-flex border-light">
-                    <img class="card-img-top img-sml align-self-center" src="images/skills/brain.svg" alt="Design Thinking">
-                    <div class="card-body align-self-center">
-                    <h5 class="card-title">Design Thinkning</h5>
+                <!-- TEAM TREEHOUSE SECTION -->
+                <div class="card mb-5 mt-3">
+                    <p class="degree-header">Team Treehouse</p>
+                    <div class="card-body">
+                        <p class="degree-title"> Front-End Web Development TechDegreee</p>
+                        <p class="card-text">Understanding and applying the fundementals of front-end web development through the following skills:</p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Sass</li>
+                            <li>jQuery</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="card d-flex border-light">
-                    <img class="card-img-top img-sml align-self-center" src="images/skills/excel.svg" alt="Microsoft Excel">
-                    <div class="card-body align-self-center">
-                        <h5 class="card-title">Microsoft Excel</h5>
-                    </div>
-                </div>
-                <div class="card d-flex border-light">
-                    <img class="card-img-top img-med align-self-center mb-5" src="images/skills/html-5.svg" alt="HTML 5">
-                    <div class="card-body align-self-center">
-                        <h5 class="card-title">HTML 5</h5>
-                    </div>
-                </div>
-                <div class="card d-flex border-light">
-                    <img class="card-img-top img-lrg align-self-center" src="images/skills/interaction.svg" alt="Communication">
-                    <div class="card-body align-self-center">
-                        <h5 class="card-title">Communication</h5>
-                    </div>
-                </div>
-                <div class="card d-flex border-light">
-                    <img class="card-img-top img-lrg align-self-center" src="images/skills/javascript.svg" alt="javascript">
-                    <div class="card-body align-self-center">
-                        <h5 class="card-title">Javascript</h5>
-                    </div>
-                </div>
-                <div class="card d-flex border-light">
-                    <img class="card-img-top img-med align-self-center" src="images/skills/leader.svg" alt="Team leadership">
-                    <div class="card-body align-self-center">
-                        <h5 class="card-title">Team Leadership</h5>
-                    </div>
-                </div>
-                <div class="card d-flex border-light">
-                    <img class="card-img-top img-med align-self-center" src="images/skills/computer.svg" alt="Data Analytics">
-                    <div class="card-body align-self-center">
-                    <h5 class="card-title">Data Analytics</h5>
-                    </div>
-                </div>
-                <div class="card d-flex border-light">
-                    <img class="card-img img-sml align-self-center" src="images/skills/css.svg" alt="css">
-                    <div class="card-body align-self-center">
-                    <h5 class="card-title">CSS</h5>
-                    </div>
-                </div>
+                <!-- TEAM TREEHOUSE SECTION END -->
             </div>
-        </div>
+<!-- SKILLS -->
+            <h1 class="content-heading" id="skill">SKILLS</h1>
+            <div class="skill-container">      
+                <div class="large-breakpoint">
+                    <div class="skill-group mb-3">
+                        <div class="d-flex justify-content-center">
+                            <img class="skill-icon" src="images/skills/brain.svg" alt="Design Thinking">
+                        </div>
+                        <p class="card-title">Design Thinking</p>
+                    </div>
+                    <div class="skill-group mb-3">
+                        <div class="d-flex justify-content-center">
+                            <img class="skill-icon" src="images/skills/excel.svg" alt="Microsoft Excel">
+                        </div>
+                        <p class="card-title">Microsoft Excel</p>
+                    </div>
+                    <div class="skill-group mb-3">
+                        <div class="d-flex justify-content-center">
+                            <img class="skill-icon" src="images/skills/html-5.svg" alt="HTML 5">
+                        </div>
+                        <p class="card-title">HTML 5</p>
+                    </div>
+                </div>
+                <div class="large-breakpoint">
+                    <div class="skill-group mb-3 ">
+                        <div class="d-flex justify-content-center">
+                            <img class="skill-icon" src="images/skills/interaction.svg" alt="Communication">
+                        </div>
+                        <p class="card-title">Communication</p>
+                    </div>
+                    <div class="skill-group mb-3">
+                        <div class="d-flex justify-content-center">
+                            <img class="skill-icon" src="images/skills/javascript.svg" alt="javascript">
+                        </div>
+                        <p class="card-title">Javascript</p>
+                    </div>
+                    <div class="skill-group mb-3 ">
+                        <div class="d-flex justify-content-center">
+                            <img class="skill-icon" src="images/skills/leader.svg" alt="Team leadership">
+                        </div>
+                        <p class="card-title">Team Leadership</p>
+                    </div>
+                </div>
+                <div class="large-breakpoint">
+                    <div class="skill-group mb-3 ">
+                        <div class="d-flex justify-content-center">
+                            <img class="skill-icon" src="images/skills/computer.svg" alt="Data Analytics">
+                        </div>
+                        <p class="card-title">Data Analytics</p>
+                    </div>
+                    <div class="skill-group mb-3">
+                        <div class="d-flex justify-content-center">
+                            <img class="skill-icon" src="images/skills/css.svg" alt="css">
+                        </div>
+                        <p class="card-title">CSS</p>
+                    </div>
+                    <div class="skill-group mb-3">
+                        <div class="d-flex justify-content-center">
+                            <img class="skill-icon" src="images/skills/product.svg" alt="Product Design">
+                        </div>
+                        <p class="card-title">Product Design</p>
+                    </div>
+
+                </div>
+            </div>      
 <!-- CONTACT -->
-        <h1 id="contact">Contact</h1>
-        <div class="d-flex center-container flex-wrap justify-content-between">
-            <a href="mailto:hamzashaikh1996@gmail.com" target="_blank">
-                <img src="images/contact/gmail.svg" alt="gmail contact info" class="contact-icon">
-            </a>
-            <a href="https://linkedin.com/in/hshaikhh" target="_blank">
-                <img src="images/contact/linkedin.svg" alt="linkedin contact info" class="contact-icon">
-            </a>
-            <a href="https://github.com/hamzashaikh123">
-                <img src="images/contact/logo.svg" alt="github contact info" class="contact-icon">
-            </a>
+            <h1 class="content-heading" id="contact">Want to Get in Touch?</h1>
+            <p>Send me a message on the following platforms:</p>
+            <div class="d-flex contact-container">
+                <a href="https://github.com/hamzashaikh123" target="_blank">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><path class="contact-img-github" d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z" fill="#212121"/></svg>                
+                    </div>
+                </a>
+                <a href="https://linkedin.com/in/hshaikhh" target="_blank">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path class="contact-img-linkedin" d="m437 0h-362c-41.351562 0-75 33.648438-75 75v362c0 41.351562 33.648438 75 75 75h362c41.351562 0 75-33.648438 75-75v-362c0-41.351562-33.648438-75-75-75zm-256 406h-60v-210h60zm0-240h-60v-60h60zm210 240h-60v-120c0-16.539062-13.460938-30-30-30s-30 13.460938-30 30v120h-60v-210h60v11.308594c15.71875-4.886719 25.929688-11.308594 45-11.308594 40.691406.042969 75 36.546875 75 79.6875zm0 0"/></svg>
+                    </div>
+                </a>
+                <a href="mailto:hamzashaikh1996@gmail.com" target="_blank">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path class="contact-img-gmail" d="M464 64H48C21.504 64 0 85.504 0 112v288c0 26.496 21.504 48 48 48h416c26.496 0 48-21.504 48-48V112c0-26.496-21.504-48-48-48zm-56.512 32L256 215.616 104.512 96h302.976zM448 416H64V148.672l192 147.68L448 148.64V416z"/></svg>                
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
     <!-- Optional JavaScript -->
