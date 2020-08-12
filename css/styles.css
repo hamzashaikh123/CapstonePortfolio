@@ -18,14 +18,11 @@ li{
     font-family: 'IBM Plex Sans';
     font-size: 17px;
 }
-.main{
-    position: relative;
-}
 
 /* =========================SIDE NAVIGATION SETUP=================================== */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 165px; /* Set the width of the sidebar */
+    width: 160px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -35,7 +32,7 @@ li{
     padding-right:5px;
 }
 .list-item{
-    font-size: 18px;
+    font-size: 16px;
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     color: #818181;
@@ -43,7 +40,7 @@ li{
     font-family: 'IBM Plex Sans';
 
 }
- 
+
 .center-container{
     margin: 0 auto;
     border: none;
@@ -98,9 +95,7 @@ li{
 .sidenav a:hover {
     color: #F2BE22;
 }
-.sidenav a:active {
-    color: #F2BE22;
-}
+
 /* ==============================SIDE NAVIGATION END======================================= */
 
 /*============================== MAIN LANDING PAGE SETUP ===================================*/
@@ -424,14 +419,18 @@ li{
     .mission-statement{
         font-size: 30px;
     }
+    .degree-header{
+        font-size: 25px;
+    }
     .overlay-EY{
         justify-content: center;
     }
     .main{
-        margin-left:130px;
+        margin-left:160px;
     }
     .sidenav{
         padding-left:0;
+;
     }
     .EY-title{
         font-size: 40px;
@@ -480,6 +479,9 @@ li{
 @media (min-width:1024px){
     .mission-statement{
         font-size: 40px;
+    }
+    .list-item{
+        font-size: 18px;
     }
     .project-thumbnail{
         width: 300px;
