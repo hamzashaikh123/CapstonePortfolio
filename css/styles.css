@@ -361,7 +361,12 @@ li{
 .skill-container{
     margin:0 auto;
 }
-
+.skill-title{
+    margin: 15px 0;
+    color: #F2BE22;
+    font-family: 'IBM Plex Sans';
+    text-align: center;
+}
 /*============================== CONTACT =============================================*/
 .contact-icon{
     width: 60px;
