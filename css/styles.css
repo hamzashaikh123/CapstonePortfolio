@@ -40,6 +40,9 @@ li{
     font-family: 'IBM Plex Sans';
 
 }
+.navbar-brand {
+    margin-right: 0;
+}
 
 .center-container{
     margin: 0 auto;
