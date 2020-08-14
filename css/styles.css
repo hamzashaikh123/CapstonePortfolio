@@ -49,17 +49,15 @@ li{
     border: none;
 }  
 .main-title{
-    background-position: 50%;
+    background-position: center;
     background-image: url(../images/profileimg.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-position: center;
     height: 100vh;
-    max-width: 100;
-    object-fit: fill;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: white;
     text-shadow: 0px 0px 12px black;
     background-size: cover;
