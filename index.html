@@ -3,7 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap');
     </style>
@@ -17,7 +17,6 @@
   <body>
 <!-- NAV BAR (MOBILE)  -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light d-block d-sm-block d-md-none">
-    <a class="navbar-brand" href="#">Hamza Shaikh, Front-End Developer</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -33,27 +32,28 @@
     </div>
   </nav>
 <!-- NAV BAR (NON-MOBILE) -->
-    <div class="nav d-none d-md-block sidenav list-group list-group-flush" id="sidenav">
+    <div class="d-none d-md-block sidenav" id="sidenav">
         <a class="pl-2" href="#top"> 
             <p class="name">Hamza Shaikh</p>
             <p class="name">Front-End Developer</p>
         </a>
-        <a class="list-item list-group-item list-group-item-action" href="#about">About</a>
-        <a class="list-item list-group-item list-group-item-action" href="#work-exp">Work Experience</a>
-        <a class="list-item list-group-item list-group-item-action" href="#projects">Projects</a>
-        <a class="list-item list-group-item list-group-item-action" href="#education">Education</a>
-        <a class="list-item list-group-item list-group-item-action" href="#skill">Skills</a>
-        <a class="list-item list-group-item list-group-item-action" href="#contact">Contact</a>
+        <a class="list-item" href="#about">About</a>
+        <a class="list-item " href="#work-exp">Work Experience</a>
+        <a class="list-item " href="#projects">Projects</a>
+        <a class="list-item " href="#education">Education</a>
+        <a class="list-item " href="#skill">Skills</a>
+        <a class="list-item " href="#contact">Contact</a>
     </div>
     <div class="col-xs-12 main" data-spy="scroll" data-target="#sidenav" data-offset="0" >
         <div id="top"class="main-title text-sm-center mb-5 img-fluid">
-            <h3 class="display-3 introduction">HI, I'M HAMZA SHAIKH </h3>
+            <h3 class="introduction">HI, I'M HAMZA SHAIKH </h3>
             <p class="designation">CPA (in-progress), Entrepreneur, Front-End Web Developer </p>
         </div>
-<!-- ABOUT -->
+
         <div class="content">
+<!-- ABOUT -->
             <h1 class="content-heading" id="about">ABOUT</h1>
-            <div class="">
+            <div class="container">
                 <p class="mission-statement">A goal-oriented learner always eager to take on new challenges with a passion for innovation and entrepreneurship</p>
                 <p>I'm currently working as an Auditor at EY while pursuing my CPA Designation. On my freetime I'm committed to learning valuable skills that will compliment my designation while also bringing me closer to my true passion of Innovation and Technology.</p>
                 <p>After completing my Front-End Development TechDegreee at TeamTreehouse I plan on learning more complex coding languages (such as: Swift, Java, and React) to transition into Product/App Development. My goal is to enter the Startup World - Either as a Founder or Early Team Member - to really create an impact in the world! </p>
@@ -61,7 +61,7 @@
 <!-- WORK EXPEREINCE -->
             <div class="d-flex">
                 <h1 class="content-heading" id="work-exp">WORK EXPERIENCE</h1>
-                <p class="subheading">Slide for Details</p>
+                <p class="subheading d-none d-md-block">Slide for Details</p>
             </div>
             <section>
                 <!-- Intermediate staff accountant -->
@@ -70,7 +70,7 @@
                         <div class="card">
                             <div class="card-header d-flex flex-wrap">
                                 <p class="align-self-end EY-title">EY Canada</p>
-                                <p class="ml-auto align-self-end job-role">Intermediate Staff Accountant</p>
+                                <p class="ml-auto align-self-end job-role" id="int-staff-acc">Intermediate Accountant</p>
                             </div>
                             <p class= "company-description">With people and operations in more than 150 countries, EY is one of the largest professional service firms in the world. Specializing in Assurance, Consulting, Strategy and Transactions, and Tax, EY is committed to doing it's part in building a better working world. EY is determined to developing outstanding leaders who team to deliver on promises to their stakeholders. In doing so, EY plays a crucial role in building a better working world for their people, clients, and communities.</p>
                             <div class="card-body">
@@ -224,7 +224,7 @@
                 </div>
             </section>
 <!-- PROJECTS -->
-            <h1 class=" content-heading" id="projects">PROJECTS</h1>
+            <h1 class="content-heading" id="projects">PROJECTS</h1>
             <div class="center-container d-flex flex-wrap">
                 <!-- INTERACTIVE PHOTO GALLERY -->
                 <div class= "project-thumbnail">
@@ -334,7 +334,7 @@
             <h1 class="content-heading" id="education">EDUCATION</h1>
             <div class="">
                 <!-- GDIP Section -->
-                <div class="card mb-5">
+                <div class="card border-0 mx-2 mb-5">
                     <p class="degree-header">Rotman School of Management</p>
                     <div class="card-body">
                         <p class="degree-title">Graduate Diploma</p>
@@ -344,7 +344,7 @@
                 <!-- GDIP Section END-->
                 
                 <!-- BCOMM UofT Section -->
-                <div class="card mb-5 mt-3">
+                <div class="card border-0 mx-2 mb-5 mt-3">
                     <p class="degree-header">University of Toronto - Rotman Commerce</p>
                     <div class="card-body">
                         <p class="degree-title">Bachelors Degree</p>
@@ -354,7 +354,7 @@
                 <!-- BCOMM UofT Section END -->
 
                 <!-- TEAM TREEHOUSE SECTION -->
-                <div class="card mb-5 mt-3">
+                <div class="card border-0 mx-2 mb-5 mt-3">
                     <p class="degree-header">Team Treehouse</p>
                     <div class="card-body">
                         <p class="degree-title"> Front-End Web Development TechDegreee</p>
@@ -374,63 +374,63 @@
             <h1 class="content-heading" id="skill">SKILLS</h1>
             <div class="skill-container">      
                 <div class="large-breakpoint">
-                    <div class="skill-group mb-3">
+                    <div class="skill-group">
                         <div class="d-flex justify-content-center">
-                            <img class="skill-icon" src="images/skills/brain.svg" alt="Design Thinking">
+                            <img class="skills-logo skill-icon" src="images/skills/brain.svg" alt="Design Thinking">
                         </div>
-                        <p class="card-title">Design Thinking</p>
+                        <p class="skill-title">Design Thinking</p>
                     </div>
-                    <div class="skill-group mb-3">
+                    <div class="skill-group">
                         <div class="d-flex justify-content-center">
-                            <img class="skill-icon" src="images/skills/excel.svg" alt="Microsoft Excel">
+                            <img class="skills-logo skill-icon" src="images/skills/excel.svg" alt="Microsoft Excel">
                         </div>
-                        <p class="card-title">Microsoft Excel</p>
+                        <p class="skill-title">Microsoft Excel</p>
                     </div>
-                    <div class="skill-group mb-3">
+                    <div class="skill-group">
                         <div class="d-flex justify-content-center">
-                            <img class="skill-icon" src="images/skills/html-5.svg" alt="HTML 5">
+                            <img class="skills-logo skill-icon" src="images/skills/html-5.svg" alt="HTML 5">
                         </div>
-                        <p class="card-title">HTML 5</p>
-                    </div>
-                </div>
-                <div class="large-breakpoint">
-                    <div class="skill-group mb-3 ">
-                        <div class="d-flex justify-content-center">
-                            <img class="skill-icon" src="images/skills/interaction.svg" alt="Communication">
-                        </div>
-                        <p class="card-title">Communication</p>
-                    </div>
-                    <div class="skill-group mb-3">
-                        <div class="d-flex justify-content-center">
-                            <img class="skill-icon" src="images/skills/javascript.svg" alt="javascript">
-                        </div>
-                        <p class="card-title">Javascript</p>
-                    </div>
-                    <div class="skill-group mb-3 ">
-                        <div class="d-flex justify-content-center">
-                            <img class="skill-icon" src="images/skills/leader.svg" alt="Team leadership">
-                        </div>
-                        <p class="card-title">Team Leadership</p>
+                        <p class="skill-title">HTML 5</p>
                     </div>
                 </div>
                 <div class="large-breakpoint">
-                    <div class="skill-group mb-3 ">
+                    <div class="skill-group">
                         <div class="d-flex justify-content-center">
-                            <img class="skill-icon" src="images/skills/computer.svg" alt="Data Analytics">
+                            <img class="skills-logo skill-icon" src="images/skills/interaction.svg" alt="Communication">
                         </div>
-                        <p class="card-title">Data Analytics</p>
+                        <p class="skill-title">Communication</p>
                     </div>
-                    <div class="skill-group mb-3">
+                    <div class="skill-group">
                         <div class="d-flex justify-content-center">
-                            <img class="skill-icon" src="images/skills/css.svg" alt="css">
+                            <img class="skills-logo skill-icon" src="images/skills/javascript.svg" alt="javascript">
                         </div>
-                        <p class="card-title">CSS</p>
+                        <p class="skill-title">Javascript</p>
                     </div>
-                    <div class="skill-group mb-3">
+                    <div class="skill-group">
                         <div class="d-flex justify-content-center">
-                            <img class="skill-icon" src="images/skills/product.svg" alt="Product Design">
+                            <img class="skills-logo skill-icon" src="images/skills/leader.svg" alt="Team leadership">
                         </div>
-                        <p class="card-title">Product Design</p>
+                        <p class="skill-title">Team Leadership</p>
+                    </div>
+                </div>
+                <div class="large-breakpoint">
+                    <div class="skill-group">
+                        <div class="d-flex justify-content-center">
+                            <img class="skills-logo skill-icon" src="images/skills/computer.svg" alt="Data Analytics">
+                        </div>
+                        <p class="skill-title">Data Analytics</p>
+                    </div>
+                    <div class="skill-group">
+                        <div class="d-flex justify-content-center">
+                            <img class="skills-logo skill-icon" src="images/skills/css.svg" alt="css">
+                        </div>
+                        <p class="skill-title">CSS</p>
+                    </div>
+                    <div class="skill-group">
+                        <div class="d-flex justify-content-center">
+                            <img class="skills-logo skill-icon" src="images/skills/product.svg" alt="Product Design">
+                        </div>
+                        <p class="skill-title">Product Design</p>
                     </div>
 
                 </div>
