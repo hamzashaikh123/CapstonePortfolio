@@ -353,11 +353,7 @@ li{
 
 
 /*============================== SKILLS =============================================*/
-.skill-icon{
-    width: 25%;
-    max-width: 80px;
-    border-radius: 50%;
-}
+
 .skill-group{
     flex-direction: column;
 }
@@ -489,6 +485,7 @@ li{
 }
 
 @media (min-width:1024px){
+
     .mission-statement{
         font-size: 40px;
     }
