@@ -51,8 +51,8 @@ li{
 .main-title{
     background-image: url(../images/profileimg.jpg);
     background-position: center;
-    height: 320px;
-    width: 320px;
+    height: 400px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
