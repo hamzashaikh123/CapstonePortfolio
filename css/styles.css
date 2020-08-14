@@ -52,7 +52,7 @@ li{
     background-image: url(../images/profileimg.jpg);
     background-position: center;
     height: 400px;
-    width: 400px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
