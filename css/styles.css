@@ -354,7 +354,8 @@ li{
 
 /*============================== SKILLS =============================================*/
 .skill-icon{
-    width: 80px;
+    width: 25%;
+    max-width: 80px;
     border-radius: 50%;
 }
 .skill-group{
